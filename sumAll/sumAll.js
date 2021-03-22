@@ -8,7 +8,9 @@ const sumAll = function(num1, num2) {
 
     if((num2 < 0 || num1 < 0)){ //For negative numbers scenario, will output ERROR
         return "ERROR";
-    }else if((typeof num1 == String || typeof num2 == String)){
+    }else if(typeof(num1) == "string" || typeof(num2) == "string"){
+        return "ERROR";
+    }else if(typeof(num1) != "number" || typeof(num2) != "number"){
         return "ERROR";
     }else{
         if(num1 < num2){
