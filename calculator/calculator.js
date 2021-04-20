@@ -1,13 +1,13 @@
-function add () {
-	
+function add (x,y) {
+	return x + y;
 }
 
-function subtract () {
-	
+function subtract (x, y) {
+	return x - y;
 }
 
-function sum () {
-	
+function sum (array){
+	return array.reduce(total, sum);
 }
 
 function multiply () {
